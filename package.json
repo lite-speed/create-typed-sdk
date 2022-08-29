@@ -1,0 +1,29 @@
+{
+  "name": "create-typed-sdk",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "A library for automatically creating SDKs for your Node.js Typescript backends. No build step, no risk of injecting your server code into your frontend, just sweet, sweet DX goodness.",
+  "types": "./src/index.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "files": [
+    "src",
+    "dist",
+    "core"
+  ],
+  "scripts": {
+    "dev": "tsc -w --preserveWatchOutput",
+    "do-publish": "npm login && npx np",
+    "build": "tsc",
+    "build-dev": "pnpm build"
+  },
+  "devDependencies": {
+    "np": "7.6.2",
+    "type-fest": "2.16.0",
+    "typescript": "4.7.4"
+  },
+  "dependencies": {
+    "@types/node": "18.7.13",
+    "axios": "0.27.2"
+  }
+}

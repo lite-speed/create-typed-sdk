@@ -1,0 +1,16 @@
+.env
+node_modules
+dist
+dist-rn
+dist-web
+build
+coverage
+tsconfig.tsbuildinfo
+yarn.lock
+package-lock.json
+.turbo
+.pnpm-debug.log
+index.tsbuildinfo
+yarn-error.log
+secret.*.ts
+!secret.development.ts
