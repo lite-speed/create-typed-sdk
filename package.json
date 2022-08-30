@@ -11,6 +11,10 @@
     "dist",
     "core"
   ],
+  "homepage": "https://github.com/lite-speed/create-typed-sdk#readme",
+  "bugs": {
+    "url": "https://github.com/lite-speed/create-typed-sdk/issues"
+  },
   "scripts": {
     "dev": "tsc -w --preserveWatchOutput",
     "do-publish": "npm login && npx np",
