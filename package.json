@@ -1,6 +1,6 @@
 {
   "name": "create-typed-sdk",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A library for automatically creating SDKs for your Node.js Typescript backends. No build step, no risk of injecting your server code into your frontend, just sweet, sweet DX goodness.",
   "types": "./dist/index.d.ts",
   "type": "module",
